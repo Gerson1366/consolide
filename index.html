@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="public/scripts/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="public/css/style.css" />
+        <link rel="stylesheet" href="public/css/style-responsive.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header id="hero" class="container-grid">
+            <section id="logos" class="container-flex">
+                <img class="logo-title" src="public/img/logos/lojaintegrada-logo.png" />
+                <img id="heart-logo" src="public/img/logos/heart-logo.png" />
+                <img class="logo-title" src="public/img/logos/consolide-logo.png" />
+            </section>
+            <section id="whatsapp" class="container-flex">
+                <div id="wpp-left"></div>
+                <div id="wpp-content">
+                    <p id="wpp-title">WHATSAPP</p>
+                    <p id="wpp-subtitle">FALE CONOSCO AGORA</p>
+                </div>
+                <div id="wpp-right"></div>
+                <div id="wpp-fill"></div>
+            </section>
+            <section id="heading">
+                <section>
+                    <h1>Atenção, sua marca pode estar em risco!</h1>
+                    <p>Somente o Registro de marca é capaz de <span class="bold-text">proteger o nome e logotipo da sua marca,</span> tornando você o único proprieetário, e impedindo alguém de copiar ou usar sua marca de forma indevida.</p>
+                </section>
+                <section id="especialistas" class="container-flex">
+                    <section id="especialistas-icon">
+                        <img src="public/img/especialistas/1.png" />
+                        <img class="especialistas-margin" src="public/img/especialistas/2.png" />
+                        <img class="especialistas-margin" src="public/img/especialistas/3.png" />
+                    </section>
+                    <section id="especialistas-description">
+                        <span>Os Consultores <span class="bold-text">especialistas </span>em <span class="bold-text">Proteção de Marca</span> da <span class="bold-text">Consolide</span></span>
+                    </section>
+                </section>
+            </section>
+            <section id="form" class="container-flex">
+                <div id="icon-float"></div>
+                <form>
+                    <h1>Consulte aqui sua marca!</h1>
+                    <div class="form-group">
+                        <label for="nome-marca">Nome da marca</label>
+                        <input type="text" class="form-control" name="nome-marca" id="nome-marca" placeholder="Digite o nome da marca"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Seu nome"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="Telefone com DDD"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Solicitar consulta"/>
+                    </div>
+                    <p id="info">Ao receber consulta você aceita receber 
+                        contato da Consolide</p>
+                </form>
+            </section>
+        </header>
+        <section id="registro">
+            <section id="video" class="container-flex-column">
+                <section class="title-video">
+                    <h1>Explicamos tudo sobre <span class="bold-text">registro 
+                        de marca</span> para você!</h1>
+                </section>
+                <section id="content-video" class="container-flex">
+                    <img id="icon-play" src="public/img/video/play.png" />
+                    <video></video>
+                    <img id="circle-video" src="public/img/video/circle.png" />
+                </section>
+            </section>
+            <section id="registro-marca" class="container-flex-column">
+                <section class="title-video">
+                    <h1>Como funciona o registro de marca
+                        com a Consolide?</h1>
+                </section>
+                <section id="content-registro" class="container-flex">
+                    <section id="content-flow" class="container-flex-column">
+                        <img id="image-circle-flow" src="public/img/flow/circle.png" />
+                        <section class="flow-item container-flex">
+                            <p class="item-number">
+                                <img src="public/img/flow/number-1.png" />
+                            </p>
+                            <section class="container-flex-column">
+                                <h2>Pesquisa de marca</h1>
+                                <p>Os consultores fazem a pesquisa de 
+                                    viabilidade do nome da marca para identificar 
+                                    se sua marca está disponível.</p>
+                            </section>
+                        </section>
+                        <section class="flow-item container-flex">
+                            <p class="item-number">
+                                <img src="public/img/flow/number-2.png" />
+                            </p>
+                            <section class="container-flex-column">
+                                <h2>Acompanhamento</h1>
+                                <p>Auxiliamos a preparação da documentação 
+                                    e supervisionamos todo processo para que você saiba a situação do Registro da sua marca.</p>
+                            </section>
+                        </section>
+                        <section class="flow-item container-flex">
+                            <p class="item-number-end">
+                                <img src="public/img/flow/number-3.png" />
+                            </p>
+                            <section class="container-flex-column">
+                                <h2>Registro realizado</h1>
+                                <p>Pode comemorar: sua marca está registrada
+                                    e protegida pelos próximos 10 anos!</p>
+                            </section>
+                        </section>
+                    </section>
+                    <section id="content-screen">
+                        <img src="public/img/screen/screen.png" />
+                    </section>
+                </section>
+                <section id="cnpj" class="container-flex-column">
+                    <section id="cnpj-content" class="container-flex">
+                        <section id="cnpj-text">
+                            <h1>CNPJ não protege sua marca!</h1>
+                            <p>Somente o registro de marca é capaz de proteger 🔒 
+                                o nome e logotipo do seu negócio, tornando você o único 
+                                proprietário, e impedindo alguém de copiar ou usar 
+                                sua marca de forma indevida.</p>
+                            <img id="padlock" src="public/img/cnpj/padlock.png" />
+                        </section>
+                        <section id="content-video-cnpj" class="container-flex">
+                            <img id="icon-play" src="public/img/video/play.png" />
+                            <video></video>
+                        </section>
+                    </section>
+                </section>
+                <section id="diferenciais" class="container-flex-column">
+                    <h1 id="dif-h1">Com a sua marca registrada você</h1>
+                    <section id="dif-flow" class="container">
+                        <div class="row">
+                            <img id="circle-1" src="public/img/diferenciais/circle.png" />
+                            <section class="col dif-item-flow container-flex-column">
+                                <img src="public/img/diferenciais/number-2.png" />
+                                <h2>Evite cópias</h2>
+                                <p>Você impede que sua marca <span class="bold-text">seja plagiada</span> e usada de forma indevida por outros.</p>
+                            </section>
+                            <img id="circle-2" src="public/img/diferenciais/circle-2.png" />
+                            <section class="col dif-item-flow container-flex-column">
+                                <img src="public/img/diferenciais/number-1.png" />
+                                <h2>Garante exclusividade</h2>
+                                <p>Com a marca registrada, você <span class="bold-text">garante exclusividade</span> no seu segmento de mercado em todo Brasil.</p>
+                            </section>
+                            <img id="circle-3" src="public/img/diferenciais/circle-1.png" />
+                            <section class="col dif-item-flow container-flex-column">
+                                <img src="public/img/diferenciais/number.png" />
+                                <h2>Evita prejuízos financeiros</h2>
+                                <p>Todos investimentos em marketing e fortalecimento de marca são perdidos se você tiver que trocar o <span class="bold-text">nome do seu negócio.</span></p>
+                            </section>
+                        </div>
+                    </section>
+                </section>
+                <section id="banner" class="container-flex-column">
+                    <img src="public/img/banner/beneficios.png" />
+                </section>
+            </section>
+        </section>
+        <section id="depoimento">
+            <section id="content-1-depoimento">
+                <p id="depoimento-1">Trabalho diferenciado</p>
+                <p id="depoimento-2">Mais de<br><span class="color-change">12 mil marcas registradas</span> e negócios protegidos!</p>
+            </section>
+            <section id="img-depoimento"></section>
+            <section id="content-2-depoimento" class="container-flex-column">
+                <section id="aspas">
+                    <img src="public/img/depoimentos/aspas.png" />
+                </section>
+                <section id="depoimento-content">
+                    <p>“Temos um time de advogados especialistas 
+                        em <span class="bold-text">registro de marcas</span> pronto para ajudar o emprendedor brasileiro!” 😎</p>
+                </section>
+                <section id="nome-title">
+                    <p>José Fernando</p>
+                </section>
+                <section id="nome-descricao">
+                    <p>José Fernando, especialista em segurança de marca</p>
+                </section>
+            </section>
+        </section>
+        <section id="carousel">
+            <section id="carousel-heading">
+                <h1>Quem precisa <span class="bold-text">registrar marca?</span></h1>
+            </section>
+            <section id="carousel-content">
+                <section id="item-carousel-1" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/influencer.png" />
+                    <h2>Influencers</h2>
+                    <p>Pela facilidade de criar contas
+                        redes sociais, é cada vez
+                        mais comum que influencers
+                        tenham seu nome usado
+                        de forma indevida.</p>
+                </section>
+                <section id="item-carousel-2" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/sites.png" />
+                    <h2>Sites e Portais</h2>
+                    <p>Apenas o registro do 
+                        domínio do seu site não 
+                        protege o nome dele, sendo 
+                        necessário fazer o registro 
+                        da marca.</p>
+                </section>
+                <section id="item-carousel-3" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/ecommerce.png" />
+                    <h2>E-commerce</h2>
+                    <p>O registro do domínio do site 
+                        e da URL não protegem o 
+                        nome do seu negócio 
+                        judicialmente, apenas o 
+                        registro da marca.</p>
+                </section>
+                <section id="item-carousel-4" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/produto.png" />
+                    <h2>Produto físico</h2>
+                    <p>É possível registrar o nome 
+                        de um produto para evitar 
+                        que a concorrência copie o 
+                        nome do seu produto ou 
+                        crie variações do mesmo.</p>
+                </section>
+                <section id="item-carousel-5" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/youtube.png" />
+                    <h2>Canal no Youtube</h2>
+                    <p>Para que o nome do seu
+                        canal não seja plagiado, o
+                        registro de marca é o
+                        único meio que protege
+                        judicialmente.</p>
+                </section>
+                <section id="item-carousel-6" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/influencer.png" />
+                    <h2>Influencers</h2>
+                    <p>Pela facilidade de criar contas
+                        redes sociais, é cada vez
+                        mais comum que influencers
+                        tenham seu nome usado
+                        de forma indevida.</p>
+                </section>
+                <section id="item-carousel-7" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/sites.png" />
+                    <h2>Sites e Portais</h2>
+                    <p>Apenas o registro do 
+                        domínio do seu site não 
+                        protege o nome dele, sendo 
+                        necessário fazer o registro 
+                        da marca.</p>
+                </section>
+                <section id="item-carousel-8" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/ecommerce.png" />
+                    <h2>E-commerce</h2>
+                    <p>O registro do domínio do site 
+                        e da URL não protegem o 
+                        nome do seu negócio 
+                        judicialmente, apenas o 
+                        registro da marca.</p>
+                </section>
+                <section id="item-carousel-9" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/produto.png" />
+                    <h2>Produto físico</h2>
+                    <p>É possível registrar o nome 
+                        de um produto para evitar 
+                        que a concorrência copie o 
+                        nome do seu produto ou 
+                        crie variações do mesmo.</p>
+                </section>
+                <section id="item-carousel-10" class="carousel-item container-flex-column">
+                    <img src="public/img/carousel/youtube.png" />
+                    <h2>Canal no Youtube</h2>
+                    <p>Para que o nome do seu
+                        canal não seja plagiado, o
+                        registro de marca é o
+                        único meio que protege
+                        judicialmente.</p>
+                </section>
+            </section>
+        </section>
+        <section id="parceria" class="container-flex">
+            <section id="parceria-img"></section>
+            <section id="parceria-content" class="container-flex-column">
+                <section id="parceria-content-1">
+                    <h1>Parceria exclusiva</h1>
+                </section>
+                <section id="parceria-content-2">
+                    <img src="public/img/parceria/logos.png" />
+                </section>
+                <section id="parceria-content-3">
+                    <p>Sua marca é <span class="bold-text">muito importante</span> e queremos que você a proteja, por isso nos unimos com a <span class="bold-text">empresa que mais registra marcas no Brasil.</span></p>
+                </section>
+                <section id="parceria-content-4">
+                    <p>Não perca mais tempo, <a href="#">registre sua marca</a> 😍</p>
+                </section>
+            </section>
+        </section>
+        <section id="footer">
+            <section id="footer-logos" class="container-flex">
+                <section id="footer-logo-1">
+                    <img src="public/img/footer/npi.png" />
+                </section>
+                <section id="footer-logo-2" class="container-flex">
+                    <img src="public/img/footer/loja integrada.png" />
+                    <img id="footer-line" src="public/img/footer/line.png" />
+                    <img src="public/img/footer/consolide.png" />
+                </section>
+            </section>
+            <section id="footer-copyright">
+                <p>© 2021 Consolide Registro de Marcas ® - Todos os direitos reservados.</p>
+            </section>
+        </section>
+    </body>
+</html>

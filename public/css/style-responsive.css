@@ -1,0 +1,267 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #img-depoimento{
+        width:25rem;
+    }
+}
+
+@media (min-width: 2100px) {
+    html{
+        font-size:18px;
+    }
+    #circle-video {
+        right: 30rem;
+    }
+    .container-grid{
+        -ms-grid-rows:50px 50px 100px 600px 50px;
+        grid-template-rows:50px 50px 100px 600px 50px;
+    }
+}
+
+@media(min-width:2400px){
+    html{
+        font-size:21px;
+    }
+    #wpp-title {
+        font-size: 0.8rem;
+    }
+    #wpp-subtitle {
+        font-size: 0.5rem;
+    }
+    #icon-float{
+        right: 27rem;
+    }
+    #parceria-img {
+        margin-left: 30rem;
+    }
+}
+
+@media(max-width:1640px){
+    html{
+        font-size: 15px;
+    }
+    #icon-float{
+        right: 27rem;
+        width: 13rem;
+    }
+}
+
+@media(max-width:1540px){
+    html{
+        font-size:14px;
+    }
+}
+
+@media(max-width:1400px){
+    .container-grid{
+        -ms-grid-columns:10% 40% auto 40% 10%;;
+        grid-template-columns: 10% 40% auto 40% 10%;
+    }
+    #circle-video {
+        right: 10rem;
+    }
+    #content-1-depoimento {
+        padding-left: 10rem;
+    }
+}
+
+@media(max-width:1300px){
+    #content-registro {
+        width: 80rem;
+    }
+    #content-1-depoimento {
+        padding-left: 7rem;
+    }
+    #img-depoimento {
+        background-size: contain;
+    }
+    #depoimento {
+        -ms-grid-columns:30% auto 30%;
+        grid-template-columns: 30% auto 30%;
+    }
+    #content-flow {
+        margin-right: 15rem;
+    }
+}
+
+@media(max-width:1200px){
+    html{
+        font-size:12px;
+    }
+    #icon-float {
+        right: 27rem;
+        width: 16rem;
+    }
+    #logos {
+        width: 50rem;
+    }
+    #heart-logo {
+        padding: 1rem;
+    }
+    #content-flow {
+        margin-right: 10rem;
+    }
+    #content-screen img{
+        width:100%;
+    }
+    #parceria-img {
+        margin-left: 9rem;
+    }
+    #parceria-content {
+        margin-left: 3rem;
+    }
+}
+
+@media(max-width:1000px){
+    html{
+        font-size:10px;
+    }
+    #form form {
+        width: 40rem;
+    }
+    .container-grid {
+        -ms-grid-rows:50px 50px 100px 450px 50px;
+        grid-template-rows: 50px 50px 100px 450px 50px;
+    }
+    #icon-float {
+        right: 35rem;
+        background-size: 15em;
+    }
+    #wpp-content{
+        width: 10rem;
+    }
+    #wpp-title {
+        font-size: 1.5rem;
+    }
+    #wpp-subtitle{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:960px){
+    #whatsapp{
+        display:none;
+    }
+    #icon-float{
+        display:none;
+    }
+    #form{
+        justify-content: center;
+    }
+    #parceria{
+        flex-direction: column;
+        align-items: center;
+    }
+    #parceria-img {
+        margin-left: 0rem;
+    }
+    #parceria-content {
+        margin-left: 0rem;
+        text-align: center;
+        width:100%;
+    }
+
+}
+
+@media(max-width:800px){
+    .container-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0px;
+        margin-top: 50px;
+    }
+    #heading section{
+        width: 50%;
+        text-align: center;
+    }
+    #especialistas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #form{
+        margin-bottom: 20px;
+    }
+    #content-registro{
+        flex-direction: column;
+        align-items: center;
+    }
+    #content-screen{
+        margin-top: 5rem;
+    }
+    #depoimento{
+        -ms-grid-columns: 100%;
+        -ms-grid-rows: auto auto auto;
+        grid-template-columns: 100%;
+        grid-template-areas: "content1"
+                            "content2"
+                            "img";
+    }
+    #content-1-depoimento{
+        -ms-grid-row: 1;
+        grid-row:1;
+        -ms-grid-column: 1;
+        grid-column:1;
+    }
+    #content-2-depoimento{
+        -ms-grid-row: 2;
+        grid-row: 2;
+        -ms-grid-column: 1;
+        grid-column:1;
+    }
+    #img-depoimento {
+        height: 40rem;
+        -ms-grid-row: 3;
+        grid-row: 3;
+        -ms-grid-column: 1;
+        grid-column:1;
+        width: 100%;
+    }
+    #content-2-depoimento{
+        align-items: center;
+    }
+    #content-1-depoimento {
+        padding: 2rem;
+        padding-right: 15rem;
+        padding-left: 15rem;
+        text-align: center;
+    }
+    #aspas {
+        margin-top: 0.75rem;
+    }
+    #content-registro {
+        width: 100%;
+    }
+    #cnpj-content{
+        flex-direction: column;
+    }
+    #cnpj-text #padlock {
+        position: relative;
+        right: 0rem;
+    }
+    #cnpj-text {
+        padding-right: 0rem;
+        position: relative;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    #banner img {
+        width: 70rem;
+    }
+    #cnpj-content {
+        width: 90%;
+    }
+    .previous-carousel {
+        left: 47%;
+    }
+    .next-carousel {
+        left: 53%;
+    }
+}
